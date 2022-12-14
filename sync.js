@@ -41,6 +41,7 @@ while (flag) {
     3.Delete File
     4.Append File
     5.Rename File
+    6.Exit
     `);
 
     switch (ch) {
@@ -58,6 +59,9 @@ while (flag) {
             break;
         case '5':
             renamefile();
+            break;
+        default:
+            flag = false;
             break;
 }
 }
